@@ -31,11 +31,11 @@ app.use(function (err, req, res, next) {
 
 if(nodeEnviroment === 'production') {
   console.log('You are in production')
-  app.use(express.static(path.join(__dirname, '../../openticket-frontend/build')));
+  app.use(express.static(path.join(__dirname, 'build')));
 
 
   app.get('/*', function (req, res) {
-    res.sendFile (path.join(__dirname, '../build'))
+    res.sendFile (path.join(__dirname, 'build'))
   });
 
 }
