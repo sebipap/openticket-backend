@@ -41,7 +41,8 @@ const clientOrigins = [
   "http://192.168.1.60:5000/",
   "http://127.0.0.1:3000",
   "localhost:5000",
-  "https://sebipap.github.io/openticket.github.io/"
+  "https://sebipap.github.io/openticket.github.io/",
+  "https://openticket-backend.herokuapp.com/"
 ];
 
 module.exports = {
